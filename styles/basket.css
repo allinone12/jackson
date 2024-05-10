@@ -1,0 +1,258 @@
+html {
+    font-size: 10px;
+    -webkit-appearance: none;
+    -moz-webkit-apperance: none;
+    background-color: #fff;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    width: 100%;
+    font-family: "Poiret One";
+}
+
+h2 {
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    font-size: 2.8rem;
+    color: #344854;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+
+.s-text {
+    font-family: "Open Sans Condensed";
+    font-size: 18px;
+    color: #4E6D7D;
+}
+
+.bold-text {
+    color: #344854;
+    font-size: 2.8rem;
+    font-weight: 700; 
+}
+
+.link {
+    text-decoration: none;
+    color: #6891A7;
+}
+
+.list {
+    list-style: none;
+}
+
+.header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-family: "Poiret One";
+    font-size: 3rem;
+    color: #344854;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-size: 28px;
+    font-family: "Open Sans Condensed";
+    font-weight: 300;
+    color: #6891A7;
+}
+
+.actions-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    grid-gap: 10px;
+}
+
+.main-section {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto;
+}
+
+.heading {
+    display: grid;
+    justify-content: center;
+}
+
+.heading-three {
+    display: grid;
+    justify-content: start;
+    width: 100%;
+}
+
+.item {
+    display: grid;
+    grid-gap: 25px;
+    justify-content: start;
+}
+
+.goods-purshace {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 25px;
+}
+
+.check-text {
+    font-size: 24px;
+}
+
+.select-remove {
+    margin-left: 30px;
+    color: #6891A7;
+}
+
+.select-goods {
+    padding: 25px 15px;
+    justify-content: center;
+    border: 1px solid #B4B4B4;
+}
+
+.purchase {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr 2fr;
+    align-items: center;
+    border: 1px solid #B4B4B4;
+    padding: 30px 0px;
+    grid-gap: 30px;
+}
+
+.purchase-img {
+    max-width: 215px;
+}
+
+.purchase-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.quantity-select {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.minus, .plus {
+    font-size: 2.7rem;
+    color: #9BC4DA;
+    background-color: #E6F0F6;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.quantity {
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.price-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: end;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.checkout {
+    display: grid;
+    border: 1px solid #B4B4B4;
+    justify-content: center;
+    align-self: center;
+    height: auto;
+    align-self: start;
+    padding: 40px;
+}
+
+.free-ship {
+    display: grid;
+    grid-template-columns: 1fr 90fr;
+    grid-gap: 10px;
+    align-items: center;
+    background: #E6F0F6;
+    width: 325px;
+}
+
+.free-ship-icon {
+    display: grid;
+    background-image: url(../icons/iconamoon_delivery.svg);
+    background-size: cover;
+    width: 25px;  
+    height: 25px; 
+    margin-left: 15px;
+}
+
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-transform: uppercase;
+}
+
+.last {
+    text-align: end;
+}
+
+.checkout-button {
+    font-size: 2.8rem;
+    font-family: "Open Sans Condensed";
+    font-weight: 300;
+    width: 325px;
+    height: 58px;
+    background: #82B5D1;
+    color: #E6F0F6;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #6891A7;
+}
+
+.continue-shopping {
+    background: #E6F0F6;
+    padding: 25px;
+    color: black;
+    font-size: 2.4rem;
+    font-weight: 300;
+    max-width: 233px;
+    margin-top: 25px;
+}
+
+.button {
+    color: black;
+}

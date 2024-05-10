@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина товаров - hite</title>
+    <link rel="stylesheet" href="styles/basket.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">hite</div>
+        <nav class="nav">
+            <ul class="nav-list list">
+                <li class="nav-list-item list-row"><a  class="link" href="/index.html">Главная</a></li>
+                <li class="nav-list-item list-row"><a class="link" href="">Каталог</a></li>
+                <li class="nav-list-item list-row"><a class="link" href="">О нас</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <ul class="actions-list">
+                <li class="actions-list-item"><a href="" class="link favorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 29.1668C14.2844 28.4668 4.375 22.9835 4.375 13.1252C4.375 11.5948 4.85652 10.1032 5.75136 8.86165C6.6462 7.62013 7.90898 6.69163 9.36084 6.20768C10.8127 5.72373 12.38 5.70885 13.8408 6.16517C15.3016 6.62148 16.5818 7.52585 17.5 8.75016C18.4182 7.52585 19.6984 6.62148 21.1592 6.16517C22.62 5.70885 24.1873 5.72373 25.6392 6.20768C27.091 6.69163 28.3538 7.62013 29.2486 8.86165C30.1435 10.1032 30.625 11.5948 30.625 13.1252C30.625 22.9835 20.7156 28.4668 17.5 29.1668ZM17.5 26.2502C22.05 24.8939 27.7083 19.2429 27.7083 13.1252C27.7083 11.9648 27.2474 10.852 26.4269 10.0316C25.6065 9.2111 24.4937 8.75016 23.3333 8.75016C21.4302 8.75016 19.4862 9.96495 17.5 12.396C15.5138 9.96495 13.5698 8.75016 11.6667 8.75016C10.5063 8.75016 9.39355 9.2111 8.57307 10.0316C7.7526 10.852 7.29167 11.9648 7.29167 13.1252C7.29167 19.2429 12.95 24.8939 17.5 26.2502Z" fill="#6891A7"/>
+                    </svg>
+                </a>
+            </li>
+                <li class="actions-list-item"><a href="" class="link account">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                        <path d="M5.83337 26.2503C5.83337 24.7032 6.44796 23.2195 7.54192 22.1255C8.63588 21.0316 10.1196 20.417 11.6667 20.417H23.3334C24.8805 20.417 26.3642 21.0316 27.4582 22.1255C28.5521 23.2195 29.1667 24.7032 29.1667 26.2503C29.1667 27.0239 28.8594 27.7657 28.3124 28.3127C27.7655 28.8597 27.0236 29.167 26.25 29.167H8.75004C7.97649 29.167 7.23463 28.8597 6.68765 28.3127C6.14066 27.7657 5.83337 27.0239 5.83337 26.2503Z" stroke="#6891A7" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M17.5 14.5835C19.9162 14.5835 21.875 12.6247 21.875 10.2085C21.875 7.79225 19.9162 5.8335 17.5 5.8335C15.0838 5.8335 13.125 7.79225 13.125 10.2085C13.125 12.6247 15.0838 14.5835 17.5 14.5835Z" stroke="#6891A7" stroke-width="2.5"/>
+                    </svg>
+                </a>
+            </li>
+                <li class="actions-list-item"><a href="" class="link basket">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                        <g clip-path="url(#clip0_2789_639)">
+                          <path d="M34.7149 9.70694C34.6146 9.56445 34.4815 9.44816 34.3269 9.36785C34.1723 9.28753 34.0006 9.24555 33.8263 9.24544H10.6137L8.8566 3.18607C8.16754 0.800058 6.53016 0.54248 5.8586 0.54248H1.17353C0.573027 0.54248 0.0874023 1.02865 0.0874023 1.62857C0.0874023 2.22849 0.573574 2.71463 1.17349 2.71463H5.85802C6.00622 2.71463 6.45849 2.71463 6.76696 3.78049L12.8116 25.9951C12.9428 26.4638 13.3699 26.7875 13.8572 26.7875H28.6217C29.08 26.7875 29.489 26.5004 29.6438 26.0689L34.8479 10.699C34.9676 10.3659 34.9179 9.99514 34.715 9.70694H34.7149ZM27.8573 24.6159H14.6815L11.2242 11.4182H32.2821L27.8573 24.6159ZM25.7032 28.9887C24.1928 28.9887 22.9689 30.2126 22.9689 31.7231C22.9689 33.2335 24.1928 34.4575 25.7032 34.4575C27.2137 34.4575 28.4376 33.2335 28.4376 31.7231C28.4376 30.2126 27.2137 28.9887 25.7032 28.9887ZM15.8595 28.9887C14.349 28.9887 13.1251 30.2126 13.1251 31.7231C13.1251 33.2335 14.349 34.4575 15.8595 34.4575C17.37 34.4575 18.5939 33.2335 18.5939 31.7231C18.5939 30.2126 17.37 28.9887 15.8595 28.9887Z" fill="#6891A7"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2789_639">
+                            <rect width="35" height="35" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <div class="heading">
+                <h2 class="h2">Корзина</h2>
+            </div>
+            <div class="heading-three">
+                <h3 class="h3">1 товар в корзине</h3>
+            </div>
+            <div class="goods-purshace">
+                <div class="item">
+                    <div class="goods">
+                        <div class="select-goods">
+                            <label for="checkbox" class="select-checkbox">
+                                <input type="checkbox" class="checkbox" name="checkbox">
+                                <span class="check-text">Выбрать все</span>
+                            </label>
+                            <span class="select-remove check-text">Удалить выбранные</span>
+                        </div>
+                    </div>
+                    <div class="purchase">
+                        <input type="checkbox" class="checkbox" name="purchase-check">
+                        <div class="purchase-info">
+                            <img src="/images/9c5d819b-03a4-4a2d-9604-8553ff12343e1x.png" alt="Белая лампа" class="purchase-img">
+                            <div class="info-text">
+                                <h4 class="h4">Белая лампа</h4>
+                                <span class="s-text">Артикул: 557868 <br /> Доставка через 3 дня</span>
+                            </div>
+                        </div>
+                        <div class="quantity-select">
+                            <a href="" class="minus">-</a>
+                            <span class="quantity">1</span>
+                            <a href="" class="plus">+</a>
+                        </div>
+                        <div class="price-actions">
+                            <div class="price">
+                                <p class="bold-text">$512</p>
+                            </div>
+                            <div class="actions">
+                                <a class="delete" aria-label="delete-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                        <g clip-path="url(#clip0_736_629)">
+                                          <path d="M29.1667 7.2915C29.5534 7.2915 29.9244 7.44515 30.1979 7.71864C30.4714 7.99213 30.625 8.36306 30.625 8.74984C30.625 9.13661 30.4714 9.50754 30.1979 9.78103C29.9244 10.0545 29.5534 10.2082 29.1667 10.2082H27.7083L27.704 10.3117L26.3433 29.3736C26.291 30.1094 25.9617 30.7981 25.4218 31.3009C24.882 31.8037 24.1717 32.0832 23.434 32.0832H11.5646C10.8269 32.0832 10.1166 31.8037 9.57671 31.3009C9.03686 30.7981 8.70759 30.1094 8.65521 29.3736L7.29458 10.3132C7.29237 10.2782 7.2914 10.2432 7.29167 10.2082H5.83333C5.44656 10.2082 5.07563 10.0545 4.80214 9.78103C4.52865 9.50754 4.375 9.13661 4.375 8.74984C4.375 8.36306 4.52865 7.99213 4.80214 7.71864C5.07563 7.44515 5.44656 7.2915 5.83333 7.2915H29.1667ZM24.7873 10.2082H10.2127L11.566 29.1665H23.434L24.7873 10.2082ZM20.4167 2.9165C20.8034 2.9165 21.1744 3.07015 21.4479 3.34364C21.7214 3.61713 21.875 3.98806 21.875 4.37484C21.875 4.76161 21.7214 5.13254 21.4479 5.40603C21.1744 5.67953 20.8034 5.83317 20.4167 5.83317H14.5833C14.1966 5.83317 13.8256 5.67953 13.5521 5.40603C13.2786 5.13254 13.125 4.76161 13.125 4.37484C13.125 3.98806 13.2786 3.61713 13.5521 3.34364C13.8256 3.07015 14.1966 2.9165 14.5833 2.9165H20.4167Z" fill="#6891A7"/>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_736_629">
+                                            <rect width="35" height="35" fill="white"/>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </a>
+                                <a class="like" aria-label="save-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 29.1668C14.2844 28.4668 4.375 22.9835 4.375 13.1252C4.375 11.5948 4.85652 10.1032 5.75136 8.86165C6.6462 7.62013 7.90898 6.69163 9.36084 6.20768C10.8127 5.72373 12.38 5.70885 13.8408 6.16517C15.3016 6.62148 16.5818 7.52585 17.5 8.75016C18.4182 7.52585 19.6984 6.62148 21.1592 6.16517C22.62 5.70885 24.1873 5.72373 25.6392 6.20768C27.091 6.69163 28.3538 7.62013 29.2486 8.86165C30.1435 10.1032 30.625 11.5948 30.625 13.1252C30.625 22.9835 20.7156 28.4668 17.5 29.1668ZM17.5 26.2502C22.05 24.8939 27.7083 19.2429 27.7083 13.1252C27.7083 11.9648 27.2474 10.852 26.4269 10.0316C25.6065 9.2111 24.4937 8.75016 23.3333 8.75016C21.4302 8.75016 19.4862 9.96495 17.5 12.396C15.5138 9.96495 13.5698 8.75016 11.6667 8.75016C10.5063 8.75016 9.39355 9.2111 8.57307 10.0316C7.7526 10.852 7.29167 11.9648 7.29167 13.1252C7.29167 19.2429 12.95 24.8939 17.5 26.2502Z" fill="#6891A7"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout">
+                    <div class="free-ship">
+                        <span class="free-ship-icon"></span>
+                        <p class="s-text">Бесплтная доставка</p>
+                    </div>
+                    <div class="price">
+                        <p class="bold-text">Итого</p>
+                        <p class="bold-text last">$512</p>
+                    </div>
+                    <div class="checkout-btn button">
+                        <button class="checkout-button" type="submit">Оформить доставку</button>
+                    </div>
+                </div>
+            </div>
+            <div class="continue-shopping">
+                <a href="" class="button link">Продолжить покупки</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
