@@ -208,7 +208,7 @@ form {
     justify-content: space-between;
     align-items: center;
     background: #F3F3F1;
-    width: 100vw;
+    width: calc(100vw - 18px);
     left: 0;
     right: 0;
     padding: 150px 0px;
@@ -292,6 +292,18 @@ form {
     flex-direction: row;
 }
 
+.third-card-item {
+    position: relative;
+    display: block;
+}
+
+.h3-heading {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    align-self: center;
+}
+
 .third-card {
     display: block;
     height: 380px;
@@ -313,18 +325,23 @@ form {
     height: 100%;
 }
 
+
 .more-information {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
     font-family: "Open Sans Condensed";
     font-weight: 300;
     text-decoration: none;
     color: #6891A7;
     font-size: 2.8rem;
     background-color: #F3F3F1;
-    padding: 12px 26px;
-    position: absolute;
+    padding: 12px 26px; 
 }
 
 .last-child, .card-photo-add {
+    position: relative;
     width: 325px;
     object-fit: cover;
     height: 100%;
@@ -335,7 +352,6 @@ form {
 .forth {
     margin-top: 200px;
     background-color: #F3F3F1;
-    height: 540px;
     justify-content: center;
     align-items: center;
 
@@ -343,17 +359,24 @@ form {
 
 
 .forth-content {
-    position: absolute;
     display: flex;
     gap: 20px;
 }
 
 .forth-content-img {
-    width: 70%;
+    width: 100%;
 }
 
 .forth-block-heading {
     margin: 0;
+}
+
+.fifth-cards {
+    max-width: 1400px;
+}
+
+.fifth-card-item p, .third-card-item p {
+    color: #6891A7;
 }
 
 .offer {
@@ -464,3 +487,4 @@ form {
     color: #E6F0F6;
     font-family: "Open Sans Condensed";
 }
+
