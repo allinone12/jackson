@@ -152,6 +152,7 @@ h4 {
 .purchase-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     align-items: center;
 }
 
@@ -251,6 +252,11 @@ h4 {
     font-weight: 300;
     max-width: 233px;
     margin-top: 25px;
+    cursor: pointer;
+}
+
+.continue-shopping:hover {
+    background-color: #6891A7;
 }
 
 .button {

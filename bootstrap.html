@@ -4,11 +4,329 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
-    <link rel="stylesheet" href="/styles/bootstrap.css">
-    <script src="/scripts/bootstrap.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="/styles/bootstrapadd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poiret+One&display=swap" rel="stylesheet">
+    <style>
+        header {
+            font-family: Poiret One;
+        }
+
+        main {
+            font-family: "Open Sans Condensed";
+        }
+
+        .full-width-input {
+            width: 100%; 
+        }
+
+    </style>
 </head>
 <body>
-    <header class="header">
+
+
+    <header class="container-lg px-5 py-3">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-auto mx-5 justify-content-start h4">
+                hite
+            </div>
+            <div class="col-auto mx-5 d-flex justify-content-center">
+                <nav class="navbar navbar-expand px-2">
+                    <ul class="navbar-nav text-24 lb">
+                        <li class="nav-item px-2">
+                            <a class="nav-link lb" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link lb" href="#">Каталог</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link lb" href="#">О нас</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-auto mx-5 d-flex justify-content-center">
+                <ul class="navbar-nav px-2 d-flex flex-row">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 29.1668C14.2844 28.4668 4.375 22.9835 4.375 13.1252C4.375 11.5948 4.85652 10.1032 5.75136 8.86165C6.6462 7.62013 7.90898 6.69163 9.36084 6.20768C10.8127 5.72373 12.38 5.70885 13.8408 6.16517C15.3016 6.62148 16.5818 7.52585 17.5 8.75016C18.4182 7.52585 19.6984 6.62148 21.1592 6.16517C22.62 5.70885 24.1873 5.72373 25.6392 6.20768C27.091 6.69163 28.3538 7.62013 29.2486 8.86165C30.1435 10.1032 30.625 11.5948 30.625 13.1252C30.625 22.9835 20.7156 28.4668 17.5 29.1668ZM17.5 26.2502C22.05 24.8939 27.7083 19.2429 27.7083 13.1252C27.7083 11.9648 27.2474 10.852 26.4269 10.0316C25.6065 9.2111 24.4937 8.75016 23.3333 8.75016C21.4302 8.75016 19.4862 9.96495 17.5 12.396C15.5138 9.96495 13.5698 8.75016 11.6667 8.75016C10.5063 8.75016 9.39355 9.2111 8.57307 10.0316C7.7526 10.852 7.29167 11.9648 7.29167 13.1252C7.29167 19.2429 12.95 24.8939 17.5 26.2502Z" fill="#6891A7"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path d="M5.83337 26.2503C5.83337 24.7032 6.44796 23.2195 7.54192 22.1255C8.63588 21.0316 10.1196 20.417 11.6667 20.417H23.3334C24.8805 20.417 26.3642 21.0316 27.4582 22.1255C28.5521 23.2195 29.1667 24.7032 29.1667 26.2503C29.1667 27.0239 28.8594 27.7657 28.3124 28.3127C27.7655 28.8597 27.0236 29.167 26.25 29.167H8.75004C7.97649 29.167 7.23463 28.8597 6.68765 28.3127C6.14066 27.7657 5.83337 27.0239 5.83337 26.2503Z" stroke="#6891A7" stroke-width="2.5" stroke-linejoin="round"/>
+                                <path d="M17.5 14.5835C19.9162 14.5835 21.875 12.6247 21.875 10.2085C21.875 7.79225 19.9162 5.8335 17.5 5.8335C15.0838 5.8335 13.125 7.79225 13.125 10.2085C13.125 12.6247 15.0838 14.5835 17.5 14.5835Z" stroke="#6891A7" stroke-width="2.5"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <g clip-path="url(#clip0_2982_52)">
+                                <path d="M34.7149 9.70694C34.6146 9.56445 34.4815 9.44816 34.3269 9.36785C34.1723 9.28753 34.0006 9.24555 33.8263 9.24544H10.6137L8.8566 3.18607C8.16754 0.800058 6.53016 0.54248 5.8586 0.54248H1.17353C0.573027 0.54248 0.0874023 1.02865 0.0874023 1.62857C0.0874023 2.22849 0.573574 2.71463 1.17349 2.71463H5.85802C6.00622 2.71463 6.45849 2.71463 6.76696 3.78049L12.8116 25.9951C12.9428 26.4638 13.3699 26.7875 13.8572 26.7875H28.6217C29.08 26.7875 29.489 26.5004 29.6438 26.0689L34.8479 10.699C34.9676 10.3659 34.9179 9.99514 34.715 9.70694H34.7149ZM27.8573 24.6159H14.6815L11.2242 11.4182H32.2821L27.8573 24.6159ZM25.7032 28.9887C24.1928 28.9887 22.9689 30.2126 22.9689 31.7231C22.9689 33.2335 24.1928 34.4575 25.7032 34.4575C27.2137 34.4575 28.4376 33.2335 28.4376 31.7231C28.4376 30.2126 27.2137 28.9887 25.7032 28.9887ZM15.8595 28.9887C14.349 28.9887 13.1251 30.2126 13.1251 31.7231C13.1251 33.2335 14.349 34.4575 15.8595 34.4575C17.37 34.4575 18.5939 33.2335 18.5939 31.7231C18.5939 30.2126 17.37 28.9887 15.8595 28.9887Z" fill="#6891A7"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_2982_52">
+                                    <rect width="35" height="35" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="custom-container my-4 full-width-input"> 
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <form class="input-group">
+                        <input type="text" class="form-control" placeholder="Например, кровать">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="search-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>    
     </header>
+    <main class="container-lg px-5 py-3">
+        <div class="container-lg mt-1">
+            <ul class="d-flex list-unstyled">
+                <li class="menu-item active">
+                    <a href="#" class="lb text-20">Светильники: Скидки 20%</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="lb text-20">Мягкая мебель</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="lb text-20">Корпусная мебель</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="lb text-20">Распродажа</a>
+                </li>
+            </ul>
+            <nav aria-label="breadcrumb" class="breadcrumbs">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Назад</a></li>
+                    <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                    <li class="breadcrumb-item"><a href="#">Светильники</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Белая лампа</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="container good">
+            <div class="row">
+                <div class="col-12">
+                    <img src="/images/white-lamp.png" class="img-fluid first-img" alt="">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h3>белая лампа</h3>
+                            <p>$512</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary">Купить</button>
+                        </div>
+                    </div>
+                    <p class="mt-3">Белая настольная лампа идеально подойдет под современный интерьер. Осветительный прибор придаст помещению особый шарм и индивидуальность.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#">оплата и доставка</a>
+                        </div>
+                        <div>
+                            <a href="#">пользовательское соглашение</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-3">
+                    <img src="/images/white-lamp.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/white-lamp.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/white-lamp.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/images/white-lamp.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+            <div class="container percs">
+            </div>
+                <div class="row">
+            </div>
+                <h3 class="mb-3">Характеристики</h3>
+                <dl class="row">
+                    <div class="col-md-12">
+                    <dd class="col-sm-8">CITILUX</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Бренд</dt>
+                    <dt class="col-sm-4">Коллекция</dt>
+                    <dd class="col-sm-8">Краков</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Производитель</dt>
+                    <dd class="col-sm-8">Китай</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Гарантия</dt>
+                    <dd class="col-sm-8">12 мес.</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Срок службы</dt>
+                    <dd class="col-sm-8">Год</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Код производителя</dt>
+                    <dd class="col-sm-8">DF87569</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Размеры</dt>
+                    <dd class="col-sm-8">22x30x36</dd>
+                    <hr class="my-3"> </dl>
+                    <dt class="col-sm-4">Материал</dt>
+                    <dd class="col-sm-8">Металл, стекло</dd>
+                    <hr class="my-3"> </dl>
+                </dl>
+            </div>
+            </div>
+          </div>
+          <div class="container reviews">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="mb-4">Отзывы</h3>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/avatars/elena.jpg" alt="Елена" class="rounded-circle mr-3" width="60" height="60">
+                      <div>
+                        <h5 class="mb-1">Елена</h5>
+                        <p class="mb-0">Лампа пришла в срок, все понравилось!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/avatars/evg.jpg" alt="Евгения" class="rounded-circle mr-3" width="60" height="60">
+                      <div>
+                        <h5 class="mb-1">Евгения</h5>
+                        <p class="mb-0">Лампа удобная и компактная!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/avatars/tati.jpg" alt="Татьяна" class="rounded-circle mr-3" width="60" height="60">
+                      <div>
+                        <h5 class="mb-1">Татьяна</h5>
+                        <p class="mb-0">Материал маркий, единственный минус.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <img src="/images/avatars/mary.jpg" alt="Мария" class="rounded-circle mr-3" width="60" height="60">
+                      <div>
+                        <h5 class="mb-1">Мария</h5>
+                        <p class="mb-0">Давно искала такую лампу.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-outline-primary">Еще отзывы</a>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer class="bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <h5 class="mb-3">hite</h5>
+              <p class="mb-0">
+                *hite - Лауреат ежегодной премии «Марка No 1 в России» в 2024 году в категории «Дизайнерские предметы интерьера».
+              </p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item">
+                  <a href="#" class="text-muted">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-muted">
+                    <i class="fab fa-youtube fa-lg"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-muted">
+                    <i class="fab fa-vk fa-lg"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-muted">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
+              <p class="mt-4 text-muted">hite.com 2022 ©</p>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="mb-3">Главная</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-muted">Каталог</a>
+                </li>
+                <li>
+                  <a href="#" class="text-muted">О нас</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="mb-3">Блог</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-muted">Оплата и доставка</a>
+                </li>
+                <li>
+                  <a href="#" class="text-muted">Политика конфиденциальности</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="mb-3">Подпишись на уведомления о новых товарах</h5>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">@</button>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-block">Подписаться</button>
+              <p class="mt-4 text-muted">JackieKudrymova</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
